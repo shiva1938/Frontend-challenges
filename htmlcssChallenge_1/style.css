@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0e153a;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 110rem;
+    width: 96%;
+    background-color: rgb(230, 230, 230);
+    padding: 21px;
+}
+
+.heading-content {
+    display: flex;
+}
+
+.javascript-content {
+    margin-top: 6rem;
+    margin-left: 3rem;
+    width: 45%;
+}
+
+.javascript-master {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(0, 92, 134);
+    
+}
+
+.react-text {
+    line-height: 72px;
+    font-size: 4rem;
+    margin-top: 3rem;
+}
+
+.react-article {
+    font-size: 1.9rem;
+    margin-top: 25px;
+    line-height: 40px;
+}
+
+.download-button {
+    margin-top: 35px;
+    text-align: center;
+    padding: 18px 60px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 18px;
+    color: white;
+    background-color: darkblue;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.book-img {
+    width: 35%;
+    margin-top: 25px;
+    margin-left: 5.9rem;
+}
+
+.image-text {
+    font-size: 24px;
+    letter-spacing: 2.7px;
+}
+
+.bottom-article {
+    margin-top: 12rem;
+    width: 91%;
+    height: 50rem;
+    background-color: #0e153a;
+    text-align: center;
+}
+
+.article-container {
+    width: 26rem;
+    height: 20rem;
+    margin-left: 19.5rem;
+    margin-top: 5rem;
+    padding: 15px;
+}
+
+.article-container-heading {
+    color: white;
+    font-size: 4.5rem;
+}
+
+.article-container-text {
+    color: white;
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+.data-collect {
+    margin-top: 24px;
+    margin-left: 21px;
+}
+
+input {
+    display: block;
+    width: 21rem;
+    height: 50px;
+    padding: 21px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    outline: none;
+}
+
+.bottom-article-button {
+    border: none;
+    font-size: 21px;
+    width: 18rem;
+    padding: 20px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
